@@ -8,7 +8,7 @@ public class ABC {
 		B b = new B();
 		System.out.println(a.c+" "+a.getValue()+" "+b.getValue()+" "+b.getSuperValue());
 		
-		ABC m1=new ABC("HELLO");
+		ABC m1=new ABC("HELLO 1");
 		ABC m2=new ABC("WORLD");
 		System.out.println(m1.equals(m2));
 	}
